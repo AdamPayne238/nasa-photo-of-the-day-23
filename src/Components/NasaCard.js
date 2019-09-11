@@ -12,7 +12,7 @@ const NasaCard = props => {
         
         <p>{props.explanation}</p>
 
-
+        <p>{props.copyright}</p>
 
         </div>
     )

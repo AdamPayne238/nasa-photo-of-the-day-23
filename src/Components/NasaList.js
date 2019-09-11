@@ -27,18 +27,22 @@ function NasaList() {
         <h2>Nasa Card Below this Text</h2>
 
         <NasaCard
-                //title
+
+                //Title
                 title={data.title}
-                //date
+                //Date
                 date={data.date}
-                //url
+                //Url
                 url={data.url}
-                //explanation
-                explanation={data.explanation} />
+                //Explanation
+                explanation={data.explanation} 
+                //Copyright
+                copyright={data.copyright}
+
+                />
 
         </div>
     )
-
 
 }
 
