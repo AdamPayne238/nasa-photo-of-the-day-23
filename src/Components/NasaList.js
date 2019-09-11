@@ -23,15 +23,23 @@ function NasaList() {
     return (
 
         <div className="nasaListContainer">
+
         <h2>Nasa Card Below this Text</h2>
 
-        <NasaCard />
+        <NasaCard
+                //title
+                title={data.title}
+                //date
+                date={data.date}
+                //url
+                url={data.url}
+                //explanation
+                explanation={data.explanation} />
 
         </div>
     )
 
 
 }
-
 
 export default NasaList;
