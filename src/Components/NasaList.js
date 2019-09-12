@@ -24,8 +24,6 @@ function NasaList() {
 
         <div className="nasaListContainer">
 
-        <h2>Nasa Card Below this Text</h2>
-
         <NasaCard
 
                 //Title
